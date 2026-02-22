@@ -1,0 +1,117 @@
+# Ignore everything by default
+*
+
+# Always track the gitignore itself
+!.gitignore
+
+# Allow tracking of specific project folders only
+!Desktop/
+Desktop/*
+!Desktop/CLAUDE FOLDER copy/
+Desktop/CLAUDE FOLDER copy/*
+!Desktop/CLAUDE FOLDER copy/CLAUDE.md
+!Desktop/CLAUDE FOLDER copy/.claude/
+
+# --- Sensitive dotfiles & directories ---
+.ssh/
+.aws/
+.gnupg/
+.bash_history
+.zsh_history
+.bash_profile
+.zprofile
+.zshrc
+.bashrc
+.profile
+.netrc
+.gitconfig
+.npmrc
+.pypirc
+.env
+.envrc
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# --- System & app config ---
+.DS_Store
+.CFUserTextEncoding
+.lesshst
+.rnd
+.putty/
+.cups/
+.idlerc/
+
+# --- Dev tool configs (may contain tokens) ---
+.claude.json
+.claude.json.backup
+.claude/
+.config/
+.local/
+.cache/
+.npm/
+.bun/
+.bundle/
+.cursor/
+.windsurf/
+.codeium/
+.ngrok/
+.docker/
+.expo/
+.swiftpm/
+.cocoapods/
+.android/
+.openjfx/
+
+# --- App data ---
+.electron-cash/
+.thinkorswim/
+.openclaw/
+.openwork/
+.packettracer
+
+# --- macOS session files ---
+.bash_sessions/
+.zsh_sessions/
+
+# --- Desktop personal files ---
+Desktop/
+
+# --- Home directory folders ---
+Documents/
+Downloads/
+Movies/
+Music/
+Pictures/
+Public/
+Library/
+Applications/
+Sites/
+
+# --- Project folders (not yet tracked) ---
+AI AGENT/
+FocusFlow/
+LuvableApp/
+MEDITATION APP/
+STT Engine/
+STT-Engine/
+STT-Engine.zip
+TEXT TO SPEECH APP/
+curlov/
+fullApp/
+fullApp1/
+luvable25/
+newcursor/
+speech-recognition-tool/
+test-results/
+
+# --- Misc ---
+AWSCLIV2.pkg
+package-lock.json
+*.zip
+*.pkg
+*.mov
+*.mp4
